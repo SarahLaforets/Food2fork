@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5AE5CE4CF914A831A6233A /* Pods_Food2Fork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6F54EE14CAF0818DECA38A /* Pods_Food2Fork.framework */; };
+		8C3AD81B1CE0FED800226A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3AD81A1CE0FED800226A0F /* main.m */; };
+		8C3AD81E1CE0FED800226A0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3AD81D1CE0FED800226A0F /* AppDelegate.m */; };
+		8C3AD8261CE0FED800226A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3AD8251CE0FED800226A0F /* Assets.xcassets */; };
+		8C3AD8291CE0FED800226A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3AD8271CE0FED800226A0F /* LaunchScreen.storyboard */; };
+		8C3AD8341CE0FED800226A0F /* Food2ForkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3AD8331CE0FED800226A0F /* Food2ForkTests.m */; };
+		8C3AD83F1CE0FED800226A0F /* Food2ForkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3AD83E1CE0FED800226A0F /* Food2ForkUITests.m */; };
+		8C3AD84D1CE0FF5A00226A0F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8C3AD84C1CE0FF5A00226A0F /* Podfile */; };
+		8C576FA11CE5394900D2B0B4 /* RecipeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C576FA01CE5394900D2B0B4 /* RecipeDetailsViewController.m */; };
+		8C576FA31CE53F7900D2B0B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C576FA21CE53F7900D2B0B4 /* Main.storyboard */; };
+		8C5F9A181CE1002F0064ABA1 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5F9A161CE1002F0064ABA1 /* AFNetworking.framework */; };
+		8C5F9A191CE1002F0064ABA1 /* GDataXML_HTML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5F9A171CE1002F0064ABA1 /* GDataXML_HTML.framework */; };
+		8C7304D31CE38E89001BA09B /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7304D21CE38E89001BA09B /* RequestManager.m */; };
+		8C7304D61CE390E6001BA09B /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7304D51CE390E6001BA09B /* Recipe.m */; };
+		8C7304D91CE392E2001BA09B /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7304D81CE392E2001BA09B /* Ingredient.m */; };
+		8C7304DC1CE3B41A001BA09B /* RecipesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7304DB1CE3B41A001BA09B /* RecipesTableViewCell.m */; };
+		8C7304DF1CE3B4D9001BA09B /* RecipesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7304DE1CE3B4D9001BA09B /* RecipesTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C3AD8301CE0FED800226A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C3AD80E1CE0FED800226A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3AD8151CE0FED800226A0F;
+			remoteInfo = Food2Fork;
+		};
+		8C3AD83B1CE0FED800226A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C3AD80E1CE0FED800226A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3AD8151CE0FED800226A0F;
+			remoteInfo = Food2Fork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F38A76F1BB920467FB7FEB2 /* Pods-Food2Fork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food2Fork.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food2Fork/Pods-Food2Fork.release.xcconfig"; sourceTree = "<group>"; };
+		8C3AD8161CE0FED800226A0F /* Food2Fork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food2Fork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3AD81A1CE0FED800226A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C3AD81C1CE0FED800226A0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C3AD81D1CE0FED800226A0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C3AD8251CE0FED800226A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C3AD8281CE0FED800226A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C3AD82A1CE0FED800226A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3AD82F1CE0FED800226A0F /* Food2ForkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food2ForkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3AD8331CE0FED800226A0F /* Food2ForkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food2ForkTests.m; sourceTree = "<group>"; };
+		8C3AD8351CE0FED800226A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3AD83A1CE0FED800226A0F /* Food2ForkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Food2ForkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3AD83E1CE0FED800226A0F /* Food2ForkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food2ForkUITests.m; sourceTree = "<group>"; };
+		8C3AD8401CE0FED800226A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3AD84C1CE0FF5A00226A0F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C576F9F1CE5394900D2B0B4 /* RecipeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailsViewController.h; sourceTree = "<group>"; };
+		8C576FA01CE5394900D2B0B4 /* RecipeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailsViewController.m; sourceTree = "<group>"; };
+		8C576FA21CE53F7900D2B0B4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8C5F9A161CE1002F0064ABA1 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		8C5F9A171CE1002F0064ABA1 /* GDataXML_HTML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GDataXML_HTML.framework; path = "Pods/../build/Debug-iphoneos/GDataXML_HTML.framework"; sourceTree = "<group>"; };
+		8C7304D11CE38E89001BA09B /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		8C7304D21CE38E89001BA09B /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		8C7304D41CE390E6001BA09B /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		8C7304D51CE390E6001BA09B /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		8C7304D71CE392E2001BA09B /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		8C7304D81CE392E2001BA09B /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		8C7304DA1CE3B41A001BA09B /* RecipesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewCell.h; sourceTree = "<group>"; };
+		8C7304DB1CE3B41A001BA09B /* RecipesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewCell.m; sourceTree = "<group>"; };
+		8C7304DD1CE3B4D9001BA09B /* RecipesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipesTableViewController.h; sourceTree = "<group>"; };
+		8C7304DE1CE3B4D9001BA09B /* RecipesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipesTableViewController.m; sourceTree = "<group>"; };
+		EBBB54322934149E2D684999 /* Pods-Food2Fork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food2Fork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food2Fork/Pods-Food2Fork.debug.xcconfig"; sourceTree = "<group>"; };
+		FD6F54EE14CAF0818DECA38A /* Pods_Food2Fork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food2Fork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C3AD8131CE0FED800226A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5F9A181CE1002F0064ABA1 /* AFNetworking.framework in Frameworks */,
+				8C5F9A191CE1002F0064ABA1 /* GDataXML_HTML.framework in Frameworks */,
+				5B5AE5CE4CF914A831A6233A /* Pods_Food2Fork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3AD82C1CE0FED800226A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3AD8371CE0FED800226A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BCC4944AB6F36614422BFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBBB54322934149E2D684999 /* Pods-Food2Fork.debug.xcconfig */,
+				0F38A76F1BB920467FB7FEB2 /* Pods-Food2Fork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		710345DA074AC1F99FC94654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5F9A161CE1002F0064ABA1 /* AFNetworking.framework */,
+				8C5F9A171CE1002F0064ABA1 /* GDataXML_HTML.framework */,
+				FD6F54EE14CAF0818DECA38A /* Pods_Food2Fork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C3AD80D1CE0FED800226A0F = {
+			isa = PBXGroup;
+			children = (
+				8C3AD84C1CE0FF5A00226A0F /* Podfile */,
+				8C3AD8181CE0FED800226A0F /* Food2Fork */,
+				8C3AD8321CE0FED800226A0F /* Food2ForkTests */,
+				8C3AD83D1CE0FED800226A0F /* Food2ForkUITests */,
+				8C3AD8171CE0FED800226A0F /* Products */,
+				11BCC4944AB6F36614422BFA /* Pods */,
+				710345DA074AC1F99FC94654 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C3AD8171CE0FED800226A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3AD8161CE0FED800226A0F /* Food2Fork.app */,
+				8C3AD82F1CE0FED800226A0F /* Food2ForkTests.xctest */,
+				8C3AD83A1CE0FED800226A0F /* Food2ForkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C3AD8181CE0FED800226A0F /* Food2Fork */ = {
+			isa = PBXGroup;
+			children = (
+				8C3AD81C1CE0FED800226A0F /* AppDelegate.h */,
+				8C3AD81D1CE0FED800226A0F /* AppDelegate.m */,
+				8C576FA41CE542BF00D2B0B4 /* RecipeTableView */,
+				8C576FA71CE542DD00D2B0B4 /* RecipeDetails */,
+				8C576FA61CE542D600D2B0B4 /* Manager */,
+				8C576FA51CE542D000D2B0B4 /* Model */,
+				8C576FA21CE53F7900D2B0B4 /* Main.storyboard */,
+				8C3AD8251CE0FED800226A0F /* Assets.xcassets */,
+				8C3AD8271CE0FED800226A0F /* LaunchScreen.storyboard */,
+				8C3AD82A1CE0FED800226A0F /* Info.plist */,
+				8C3AD8191CE0FED800226A0F /* Supporting Files */,
+			);
+			path = Food2Fork;
+			sourceTree = "<group>";
+		};
+		8C3AD8191CE0FED800226A0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C3AD81A1CE0FED800226A0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C3AD8321CE0FED800226A0F /* Food2ForkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C3AD8331CE0FED800226A0F /* Food2ForkTests.m */,
+				8C3AD8351CE0FED800226A0F /* Info.plist */,
+			);
+			path = Food2ForkTests;
+			sourceTree = "<group>";
+		};
+		8C3AD83D1CE0FED800226A0F /* Food2ForkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C3AD83E1CE0FED800226A0F /* Food2ForkUITests.m */,
+				8C3AD8401CE0FED800226A0F /* Info.plist */,
+			);
+			path = Food2ForkUITests;
+			sourceTree = "<group>";
+		};
+		8C576FA41CE542BF00D2B0B4 /* RecipeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8C7304DD1CE3B4D9001BA09B /* RecipesTableViewController.h */,
+				8C7304DE1CE3B4D9001BA09B /* RecipesTableViewController.m */,
+				8C7304DA1CE3B41A001BA09B /* RecipesTableViewCell.h */,
+				8C7304DB1CE3B41A001BA09B /* RecipesTableViewCell.m */,
+			);
+			name = RecipeTableView;
+			sourceTree = "<group>";
+		};
+		8C576FA51CE542D000D2B0B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C7304D41CE390E6001BA09B /* Recipe.h */,
+				8C7304D51CE390E6001BA09B /* Recipe.m */,
+				8C7304D71CE392E2001BA09B /* Ingredient.h */,
+				8C7304D81CE392E2001BA09B /* Ingredient.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8C576FA61CE542D600D2B0B4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8C7304D11CE38E89001BA09B /* RequestManager.h */,
+				8C7304D21CE38E89001BA09B /* RequestManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		8C576FA71CE542DD00D2B0B4 /* RecipeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8C576F9F1CE5394900D2B0B4 /* RecipeDetailsViewController.h */,
+				8C576FA01CE5394900D2B0B4 /* RecipeDetailsViewController.m */,
+			);
+			name = RecipeDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3AD8151CE0FED800226A0F /* Food2Fork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3AD8431CE0FED800226A0F /* Build configuration list for PBXNativeTarget "Food2Fork" */;
+			buildPhases = (
+				D1A87F76D9DE386D6818BB15 /* Check Pods Manifest.lock */,
+				8C3AD8121CE0FED800226A0F /* Sources */,
+				8C3AD8131CE0FED800226A0F /* Frameworks */,
+				8C3AD8141CE0FED800226A0F /* Resources */,
+				89265D242D64B465DB7DC830 /* Embed Pods Frameworks */,
+				2AD18B8098A0CC48722DF7E4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Food2Fork;
+			productName = Food2Fork;
+			productReference = 8C3AD8161CE0FED800226A0F /* Food2Fork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C3AD82E1CE0FED800226A0F /* Food2ForkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3AD8461CE0FED800226A0F /* Build configuration list for PBXNativeTarget "Food2ForkTests" */;
+			buildPhases = (
+				8C3AD82B1CE0FED800226A0F /* Sources */,
+				8C3AD82C1CE0FED800226A0F /* Frameworks */,
+				8C3AD82D1CE0FED800226A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C3AD8311CE0FED800226A0F /* PBXTargetDependency */,
+			);
+			name = Food2ForkTests;
+			productName = Food2ForkTests;
+			productReference = 8C3AD82F1CE0FED800226A0F /* Food2ForkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C3AD8391CE0FED800226A0F /* Food2ForkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3AD8491CE0FED800226A0F /* Build configuration list for PBXNativeTarget "Food2ForkUITests" */;
+			buildPhases = (
+				8C3AD8361CE0FED800226A0F /* Sources */,
+				8C3AD8371CE0FED800226A0F /* Frameworks */,
+				8C3AD8381CE0FED800226A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C3AD83C1CE0FED800226A0F /* PBXTargetDependency */,
+			);
+			name = Food2ForkUITests;
+			productName = Food2ForkUITests;
+			productReference = 8C3AD83A1CE0FED800226A0F /* Food2ForkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C3AD80E1CE0FED800226A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sarah LAFORETS";
+				TargetAttributes = {
+					8C3AD8151CE0FED800226A0F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8C3AD82E1CE0FED800226A0F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8C3AD8151CE0FED800226A0F;
+					};
+					8C3AD8391CE0FED800226A0F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8C3AD8151CE0FED800226A0F;
+					};
+				};
+			};
+			buildConfigurationList = 8C3AD8111CE0FED800226A0F /* Build configuration list for PBXProject "Food2Fork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C3AD80D1CE0FED800226A0F;
+			productRefGroup = 8C3AD8171CE0FED800226A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3AD8151CE0FED800226A0F /* Food2Fork */,
+				8C3AD82E1CE0FED800226A0F /* Food2ForkTests */,
+				8C3AD8391CE0FED800226A0F /* Food2ForkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C3AD8141CE0FED800226A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3AD8291CE0FED800226A0F /* LaunchScreen.storyboard in Resources */,
+				8C3AD8261CE0FED800226A0F /* Assets.xcassets in Resources */,
+				8C3AD84D1CE0FF5A00226A0F /* Podfile in Resources */,
+				8C576FA31CE53F7900D2B0B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3AD82D1CE0FED800226A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3AD8381CE0FED800226A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AD18B8098A0CC48722DF7E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food2Fork/Pods-Food2Fork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89265D242D64B465DB7DC830 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food2Fork/Pods-Food2Fork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A87F76D9DE386D6818BB15 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C3AD8121CE0FED800226A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7304D61CE390E6001BA09B /* Recipe.m in Sources */,
+				8C3AD81E1CE0FED800226A0F /* AppDelegate.m in Sources */,
+				8C7304DC1CE3B41A001BA09B /* RecipesTableViewCell.m in Sources */,
+				8C7304DF1CE3B4D9001BA09B /* RecipesTableViewController.m in Sources */,
+				8C3AD81B1CE0FED800226A0F /* main.m in Sources */,
+				8C576FA11CE5394900D2B0B4 /* RecipeDetailsViewController.m in Sources */,
+				8C7304D91CE392E2001BA09B /* Ingredient.m in Sources */,
+				8C7304D31CE38E89001BA09B /* RequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3AD82B1CE0FED800226A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3AD8341CE0FED800226A0F /* Food2ForkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3AD8361CE0FED800226A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3AD83F1CE0FED800226A0F /* Food2ForkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C3AD8311CE0FED800226A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C3AD8151CE0FED800226A0F /* Food2Fork */;
+			targetProxy = 8C3AD8301CE0FED800226A0F /* PBXContainerItemProxy */;
+		};
+		8C3AD83C1CE0FED800226A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C3AD8151CE0FED800226A0F /* Food2Fork */;
+			targetProxy = 8C3AD83B1CE0FED800226A0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C3AD8271CE0FED800226A0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C3AD8281CE0FED800226A0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C3AD8411CE0FED800226A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C3AD8421CE0FED800226A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C3AD8441CE0FED800226A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBB54322934149E2D684999 /* Pods-Food2Fork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Food2Fork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.Food2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C3AD8451CE0FED800226A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F38A76F1BB920467FB7FEB2 /* Pods-Food2Fork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Food2Fork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.Food2Fork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C3AD8471CE0FED800226A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Food2ForkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.Food2ForkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food2Fork.app/Food2Fork";
+			};
+			name = Debug;
+		};
+		8C3AD8481CE0FED800226A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Food2ForkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.Food2ForkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food2Fork.app/Food2Fork";
+			};
+			name = Release;
+		};
+		8C3AD84A1CE0FED800226A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Food2ForkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.Food2ForkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food2Fork;
+			};
+			name = Debug;
+		};
+		8C3AD84B1CE0FED800226A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Food2ForkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.laforets.Food2ForkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Food2Fork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C3AD8111CE0FED800226A0F /* Build configuration list for PBXProject "Food2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3AD8411CE0FED800226A0F /* Debug */,
+				8C3AD8421CE0FED800226A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3AD8431CE0FED800226A0F /* Build configuration list for PBXNativeTarget "Food2Fork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3AD8441CE0FED800226A0F /* Debug */,
+				8C3AD8451CE0FED800226A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3AD8461CE0FED800226A0F /* Build configuration list for PBXNativeTarget "Food2ForkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3AD8471CE0FED800226A0F /* Debug */,
+				8C3AD8481CE0FED800226A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3AD8491CE0FED800226A0F /* Build configuration list for PBXNativeTarget "Food2ForkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3AD84A1CE0FED800226A0F /* Debug */,
+				8C3AD84B1CE0FED800226A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C3AD80E1CE0FED800226A0F /* Project object */;
+}
